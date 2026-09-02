@@ -24,7 +24,6 @@ Install dulu:
 
 import sys
 import re
-import json
 import time
 import csv
 import random
