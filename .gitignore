@@ -1,3 +1,89 @@
-__pycache__
-debug
-.venv
+# ================= Python =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================= Virtual environment =================
+# Semua env lokal; path yang dipakai di proyek ini khususnya .venv
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ================= Testing / coverage / linting =================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ================= Jupyter / notebook =================
+.ipynb_checkpoints/
+*_nbconvert_*.ipynb
+
+# ================= OS =================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.fuse_hidden*
+
+# ================= IDE / editor =================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.vs/
+
+# ================= Logs & tmp =================
+*.log
+*.tmp
+*.temp
+
+# ================= Project-specific =================
+# Debug & artefak eksplorasi (HTML/JSON bundle hasil investigasi)
+debug/
+
+# Hasil scraping — bisa di-generate ulang lewat scraping.py.
+# (Kalau dataset CSV memang mau ikut versioning, gunakan: git add -f reviews_tokopedia.csv)
+reviews_tokopedia.csv
