@@ -34,7 +34,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ============ KONFIGURASI ============
-TARGET_PER_PRODUK = 100          # maks review yang diambil per produk
+TARGET_PER_PRODUK = 1000         # maks review yang diambil per produk
 REVIEWS_PER_PAGE = 10            # review per halaman dari API
 JEDA_HALAMAN = (1, 3)            # jeda acak (detik) antar halaman review
 JEDA_ANTAR_PRODUK = (4, 7)       # jeda acak (detik) antar produk
