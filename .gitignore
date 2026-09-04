@@ -86,5 +86,6 @@ debug/
 
 # Hasil scraping — bisa di-generate ulang lewat scraping.py.
 # (Kalau dataset CSV memang mau ikut versioning, gunakan: git add -f reviews_tokopedia.csv)
-*.csv
+dataset*.csv
+reviews*.csv
 *.pdf
