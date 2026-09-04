@@ -1,6 +1,8 @@
 requests
 beautifulsoup4
 pandas
-reportlab
 nltk
 Sastrawi
+reportlab
+scikit-learn
+gensim
