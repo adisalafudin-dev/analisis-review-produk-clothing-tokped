@@ -88,4 +88,7 @@ debug/
 # (Kalau dataset CSV memang mau ikut versioning, gunakan: git add -f reviews_tokopedia.csv)
 dataset*.csv
 reviews*.csv
+data*.csv
 *.pdf
+*.pkl
+*.bin
