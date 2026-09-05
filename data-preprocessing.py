@@ -110,8 +110,10 @@ def main():
     print(f"\nSelesai! Tersimpan di '{OUTPUT_FILE}'")
     print("\nContoh perbandingan sebelum vs sesudah:")
     for i in range(3):
-        print(f"\n[{i}] SEBELUM: {df_final.iloc[i]['text'][:100]}")
-        print(f"    SESUDAH: {df_final.iloc[i]['text_clean']}")
+        teks_sebelum = df_final.iloc[i]['text'][:100].encode('ascii', errors='replace').decode('ascii')
+        teks_sesudah = df_final.iloc[i]['text_clean'].encode('ascii', errors='replace').decode('ascii')
+        print(f"\n[{i}] SEBELUM: {teks_sebelum}")
+        print(f"    SESUDAH: {teks_sesudah}")
  
     # Contoh yang menampilkan efek word normalization (kata alay -> baku)
     print("\n" + "=" * 50)
