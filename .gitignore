@@ -92,3 +92,4 @@ data*.csv
 *.pdf
 *.pkl
 *.bin
+*.png
