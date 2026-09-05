@@ -6,3 +6,4 @@ Sastrawi
 reportlab
 scikit-learn
 gensim
+xgboost
